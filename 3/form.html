@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedona form</title>
+    <base href="https://htmlacademy-adaptive.github.io/2068237-sedona-28/3/">
+</head>
+
+  <body>
+    <!--container-->
+
+    <div class="container">
+
+      <!--page-header-->
+
+      <header class="page-header">
+
+        <!--navigation-->
+
+        <nav class="main-nav main-nav--closed">
+          <div class="main-nav__wrapper">
+            <button class="main-nav__toggle" type="button"  aria-label="Переключатель меню"></button>
+            <ul class="main-nav__site-list">
+              <li class="main-nav__site-item">
+                <a class="main-nav__site-link" href="index.html">Главная</a>
+              </li>
+              <li class="main-nav__site-item">
+                <a class="main-nav__site-link" href="catalog.html">Фото и видео</a>
+              </li>
+              <li class="main-nav__site-item">
+                <a class="main-nav__site-link" href="#">Форма Отзыва</a>
+              </li>
+              <li class="main-nav__site-item">
+                <a class="main-nav__site-link" href="#">HTML ACADEMY</a>
+              </li>
+            </ul>
+            <img class="main-nav__logo-img" src="#" alt="Лого седоны" width="102" height="83" />
+          </div>
+        </nav>
+
+      </header>
+
+      <!--main-->
+
+      <main>
+
+        <!--hero-->
+
+        <section class="hero">
+          <div class="hero__intro hero__intro--form-page">
+            <img class="hero__text-img  hero__text-img--form-page" src="#" alt="Начальный текст" width="282"
+              height="214" />
+          </div>
+          <div class="hero__text hero__text--form-page">
+
+            <h3 class="hero__title">
+              Оставьте свой отзыв
+            </h3>
+            <p class="hero__description">
+              Помогите нашим отелям стать лучше! Отавьтес отзыв о них, а также о посещенных вами достопремечательностях
+            </p>
+          </div>
+        </section>
+        <form action="https://echo.htmlacademy.ru" method="get" class="comment">
+          <section class="comment__full-name full-name">
+            <h3 class="full-name__title">Представьтесь:</h3>
+
+            <div class="full-name__container">
+              <label for="form-name" class="full-name__label ">Имя*:</label>
+              <input type="text" class="full-name__input " id="form-name" name="name"
+                placeholder="Пётр" required>
+            </div>
+
+            <div class="full-name__container">
+              <label for="form-surname" class="full-name_label">Фамилия*:</label>
+              <input type="text" class="full-name__input" id="form-surname" name="name"
+                placeholder="Пустота" required>
+            </div>
+
+            <div class="full-name__container">
+              <label for="form-patronymic" class="full-name_label">Отчество*:</label>
+              <input type="text" class="full-name__input" id="form-patronymic" name="name"
+                placeholder="Викторович" required>
+            </div>
+
+          </section>
+
+          <section class="comment__contacts contacts">
+            <h3 class="contacts__title">Контактная информация:</h3>
+
+            <div class="contacts__container ">
+              <label for="form-phone" class="comment_label ">Контактный телефон*:</label>
+              <input type="tel" class="contacts__input" id="form-phone" name="phone"
+                placeholder="Введите телефон" required>
+              <img class="contacts__image" src="" alt="" width="" height="">
+            </div>
+
+
+
+            <div class="contacts__container ">
+              <label for="form-email" class="contacts_label">Электронная почта*:</label>
+              <input type="email" class="contacts__input" id="form-email" name="e-mail"
+                placeholder="Введите e-mail" required>
+              <img class="contacts__image" src="" alt="" width="" height="">
+            </div>
+
+          </section>
+
+          <section class="comment__impression impression">
+            <h3 class="impression__title">Ваше Общее впечатление:</h3>
+            <ul class="impression__list">
+              <li class="impression__item">
+                <label class="impression__control">
+                  <input aria-label="Выбрать скорее положительное" class="impression__input" type="radio" name="radio-group" checked>
+                  <span class="impression__checkbox-icon"></span>
+                  <span class="impression__text">Скорее положительное</span>
+                </label>
+              </li>
+              <li class="impression__item">
+                <label class="impression__control">
+                  <input aria-label="Выбрать скорее отрицательное" class="impression__input" type="radio" name="negative">
+                  <span class="impression__checkbox-icon"></span>
+                  <span class="impression__text">Скорее отрицательное</span>
+                </label>
+              </li>
+              <li class="impression__item">
+                <label class="impression__control">
+                  <input aria-label="Выбрать затрудняюсь ответить" class="impression__input" type="radio" name="hard answer">
+                  <span class="impression__checkbox-icon"></span>
+                  <span class="impression__text">Затрудняюсь ответить</span>
+                </label>
+              </li>
+            </ul>
+
+          </section>
+
+          <section class="comment__attractions attractions">
+            <h3 class="attractions__title">посещенные достопримечательности:</h3>
+            <ul class="attractions__list">
+              <li class="impression__item">
+                <label class="attractions__control">
+                  <input aria-label="Выбрать Мост Дьявола" class="attractions__input" type="checkbox" name="checkbox-group" checked>
+                  <span class="attractions__checkbox-icon"></span>
+                  <span class="attractions__text">Мост Дьявола</span>
+                </label>
+              </li>
+              <li class="attractions__item">
+                <label class="attractions__control">
+                  <input aria-label="Выбрать Гора-Колокол" class="attractions__input" type="checkbox" name="checkbox-group" checked>
+                  <span class="attractions__checkbox-icon"></span>
+                  <span class="attractions__text">Гора-Колокол</span>
+                </label>
+              </li>
+              <li class="attractions__item">
+                <label class="attractions__control">
+                  <input aria-label="Выбрать Слайд-парк" class="attractions__input" type="checkbox" name="checkbox-group" checked>
+                  <span class="attractions__checkbox-icon"></span>
+                  <span class="attractions__text">Слайд-парк</span>
+                </label>
+              </li>
+              <li class="attractions__item">
+                <label class="attractions__control">
+                  <input aria-label="Выбрать Красные скалы" class="attractions__input" type="checkbox" name="checkbox-group">
+                  <span class="attractions__checkbox-icon"></span>
+                  <span class="attractions__text">Красные скалы</span>
+                </label>
+              </li>
+            </ul>
+          </section>
+          <section class="comment__emotions emotions">
+            <h3 class="emotions__title">Опишите свои эмоции:</h3>
+            <textarea name="emotions" rows="6" cols="20" placeholder="Опишите подробно все свои восторги"></textarea>
+            <button class="button emotions__button">Отправить отзыв</button>
+            <p class="emotions__necessarily">* - Обязательные поля</p>
+          </section>
+
+        </form>
+        <!--page-footer-->
+
+        <footer class="page-footer">
+
+          <div class="page-footer__wrapper">
+            <a href="#" class="page-footer__visit-sedona" >#visitsedona</a>
+
+            <!--page-footer__social-->
+
+            <div class="page-footer__social">
+              <ul class="page-footer__social-list">
+                <li class="page-footer__social-item">
+                  <span class="visually-hidden">Твиттер</span>
+                  <a href="#" class="page-footer__social-link page-footer__social-link--twitter"></a>
+                </li>
+                <li class="page-footer__social-item">
+                  <span class="visually-hidden">фейсбук</span>
+                  <a href="#" class="page-footer__social-link page-footer__social-link--facebook"></a>
+                </li>
+                <li class="page-footer__social-item">
+                  <span class="visually-hidden">Ютуб</span>
+                  <a href="#" class="page-footer__social-link page-footer__social-link--youtube"></a>
+                </li>
+              </ul>
+            </div>
+
+            <!--page-footer__developed-->
+
+            <div class="page-footer__developed">
+              <a href="" class="page-footer__developed-link">Разработано</a>
+            </div>
+          </div>
+        </footer>
+        <div class="error-popup">
+          <h3 class="error-popup__title">ЧТО-ТО ПОШЛО НЕ ТАК!</h3>
+          <p class="error-popup__description">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+          <button class="error-popup_button button" type="reset">Ок</button>
+        </div>
+        <div class="error-popup">
+          <h3 class="error-popup__title">Ваш отзыв отправлен!</h3>
+          <p class="error-popup__description">Спасибо за ваше участие, ваш отзыв уже поступил к нам.В ближайшее время мы опубликуем его на сайте.</p>
+          <button class="error-popup_button button" type="reset">закрыть окно</button>
+        </div>
+    </div>
+  </body>
+
+</html>
