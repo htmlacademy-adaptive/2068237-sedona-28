@@ -1,0 +1,65 @@
+.catalog-photo__title {
+  color: $black;
+  font-weight: 700;
+}
+
+.catalog-photo__descriptoin {
+  text-transform: none;
+}
+
+.catalog-photo__favorite {
+  position: relative;
+  display: block;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 0 0 36px;
+}
+
+.catalog-photo__favorite::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 23px;
+  height: 21px;
+
+  background-image: url("../img/catolog/catalog-photo/like-icon.svg");
+}
+
+@media (min-width: 768px) {
+  .catalog-photo__block:nth-child(1) {
+    width: 100%;
+  }
+
+  .catalog-photo__img--first {
+    width: 100%;
+    height: 400px;
+  }
+
+  .catalog-photo__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 60px;
+  }
+
+  .catalog-photo__block {
+    padding: 0;
+    border-bottom: 0;
+    width: 50%;
+    background-color: rgb(242, 242, 242);
+  }
+
+  .catalog-photo__information {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .catalog-photo__img {
+    margin: 0;
+    max-height: 400px;
+    height: auto;
+    display: block;
+    width: 100%;
+  }
+}

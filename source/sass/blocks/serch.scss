@@ -1,0 +1,33 @@
+
+
+.serch {
+  text-align: center;
+  padding: 30px 0 0;
+}
+
+.serch__title {
+  margin: 0 0 28px;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.serch__description {
+  padding: 0 20px;
+  margin: 0 0 32px;
+  line-height: 24px;
+}
+
+.serch__button-serch {
+  color: $white;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+
+@media (min-width: 786px) {
+  .serch__title {
+    font-size: 30px;
+    line-height: 26px;
+  }
+}

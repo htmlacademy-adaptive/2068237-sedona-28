@@ -1,0 +1,33 @@
+.contacts__title {
+  color: $black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.contacts__input {
+  width: 100%;
+}
+
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding: 20px 20px 39px 20px;
+}
+
+@media (min-width: 786px) {
+  .contacts {
+    width: 50%;
+    border-bottom: none;
+  }
+
+  .contacts__title {
+    text-align: center;
+    font-size: 21px;
+    line-height: 26px;
+  }
+}

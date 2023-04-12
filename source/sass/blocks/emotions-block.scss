@@ -1,0 +1,40 @@
+.emotions__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+}
+
+.emotions textarea {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #333333;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 16px;
+  margin-bottom: 56px;
+  min-width: 100%;
+}
+
+.emotions {
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.emotions__necessarily {
+  align-self: end;
+}
+
+@media (min-width: 786px) {
+  .emotions {
+    width: 100%;
+  }
+
+  .emotions__title {
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
