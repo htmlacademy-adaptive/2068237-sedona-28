@@ -254,14 +254,6 @@ body {
     background-image: url("../img/catolog/hero/back-desktop.jpg");
   }
 
-  .catalog-photo .catalog-photo__wrapper {
-    margin: 0;
-  }
-
-  .catalog-photo__wrapper .catalog-photo__block {
-    width: 33%;
-  }
-
   .hero__text-img--catalog-page {
     width: 460px;
     height: 80px;
@@ -649,6 +641,15 @@ body {
     height: auto;
     display: block;
     width: 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .catalog-photo .catalog-photo__wrapper {
+    margin: 0;
+  }
+
+  .catalog-photo__wrapper .catalog-photo__block {
+    width: 33.3%;
   }
 }
 .video {
