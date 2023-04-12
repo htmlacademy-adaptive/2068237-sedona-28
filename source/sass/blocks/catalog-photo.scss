@@ -63,3 +63,13 @@
     width: 100%;
   }
 }
+
+@media (min-width: 1280px) {
+  .catalog-photo .catalog-photo__wrapper {
+    margin: 0;
+  }
+
+  .catalog-photo__wrapper .catalog-photo__block {
+    width: 33.3%;
+  }
+}
