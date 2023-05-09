@@ -27,8 +27,7 @@
 
 .checkbox__input {
   position: absolute;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 .checkbox__label {
