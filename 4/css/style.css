@@ -1565,9 +1565,8 @@ img {
 
 .radio__input {
   position: absolute;
-  appearance: none;
-  -moz-appearance: none;
   -webkit-appearance: none;
+          appearance: none;
 }
 
 .radio__label {
@@ -1642,8 +1641,8 @@ img {
 
 .checkbox__input {
   position: absolute;
-  -moz-appearance: none;
   -webkit-appearance: none;
+          appearance: none;
 }
 
 .checkbox__label {
