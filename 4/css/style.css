@@ -1530,6 +1530,7 @@ img {
 
 .radio__input {
   position: absolute;
+  appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
 }
@@ -1571,7 +1572,7 @@ img {
   top: 16px;
   width: 16px;
   height: 16px;
-  background-color: #333;
+  background-color: #333333;
   border-radius: 50%;
 }
 
