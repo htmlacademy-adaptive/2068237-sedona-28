@@ -6,4 +6,21 @@
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5697bd;
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &:disabled {
+    background-color: #e6e6e6;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 16px 136px;
+  }
 }

@@ -1,7 +1,14 @@
 @import "./blocks/mixins.scss";
+@import "./var.scss";
 
 .page-header {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 26px;
+  position: relative;
+  background: #ffffff;
+
+  @media (max-width: $mobile-width-only) {
+    min-height: 56px;
+  }
 }

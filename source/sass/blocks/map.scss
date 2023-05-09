@@ -1,0 +1,17 @@
+.map__image {
+  width: 100%;
+  border: none;
+  height: 350px;
+}
+
+.map {
+  margin: 64px 0 10px;
+
+  @media (min-width: $tablet-width) {
+    margin: 70px 0 -36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 82px 0 -48px;
+  }
+}

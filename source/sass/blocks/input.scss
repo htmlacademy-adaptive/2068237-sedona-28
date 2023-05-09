@@ -1,0 +1,114 @@
+.input__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 27px;
+  }
+}
+
+.input__textarea {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #333333;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 16px;
+  margin-bottom: 50px;
+  min-width: 100%;
+  resize: none;
+  height: 150px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+
+  @media (min-width: $tablet-width) {
+    height: 160px;
+  }
+}
+
+.input__label {
+  margin: 16px 0 0 16px;
+}
+
+.input__field {
+  border: none;
+  background: #f2f2f2;
+  padding: 16px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(0, 0, 0);
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.input__field::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.input__wrapper {
+  margin-bottom: 16px;
+}
+
+.input__list {
+  list-style: none;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.input__field-wrapper {
+  position: relative;
+}
+
+.input__icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgb(230, 230, 230);
+}
+
+.input__field--icon {
+  padding-right: 61px;
+}
+
+.input__title--decor::after,
+.input__title--decor::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: rgb(219, 219, 219);
+}
+
+.input__title--decor {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 123px 1fr 123px;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 280px 1fr 280px;
+  }
+}
+

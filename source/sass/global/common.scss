@@ -36,15 +36,10 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-width: 767px) {
-  .main-nav--closed .main-nav__site-list {
-    display: none;
-  }
-
-  .catalog-photo__block {
-    padding: 25px 20px;
-    border-bottom: 1px solid rgb(229, 229, 229);
-  }
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 @media (min-width: 1280px) {

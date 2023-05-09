@@ -1,9 +1,9 @@
-@mixin color-white() {
+@mixin color-white {
   color: #ffffff;
   background-color: #81b3d2;
 }
 
-@mixin no-pagging-left() {
+@mixin no-pagging-left {
   margin: 0;
   padding-left: 0;
   list-style: none;

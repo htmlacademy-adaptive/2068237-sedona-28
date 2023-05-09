@@ -1,0 +1,138 @@
+.form__fieldset {
+  border: none;
+  padding: 0;
+
+  @media (max-width: $mobile-width-only) {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 24px 20px 0 20px;
+  }
+}
+
+.form {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content;
+    padding: 0 60px;
+    row-gap: 48px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 120px;
+    row-gap: 38px;
+  }
+}
+
+.form__fieldset--name {
+  @media (max-width: $mobile-width-only) {
+    padding: 25px 18px 22px 18px;
+  }
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1/2;
+    border-right: 1px solid #dbdbdb;
+    padding-right: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 45px;
+  }
+}
+
+.form__fieldset--emotions {
+  border-bottom: none;
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1/-1;
+    margin-top: -22px;
+  }
+}
+
+.form__button {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(129, 179, 210);
+  text-transform: uppercase;
+  padding: 16px 0;
+  border: 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 16px 71px;
+  }
+}
+
+.form__button-wrapper {
+  margin-bottom: 32px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1/-1;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0;
+    margin-top: -56px;
+    margin-bottom: 72px;
+  }
+}
+
+.form__anotation {
+  font-size: 12px;
+  line-height: 21px;
+  color: #33333399;
+  text-align: right;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 23px;
+  }
+}
+
+.form__fieldset-impressions {
+  @media (max-width: $mobile-width-only) {
+    padding: 26px 20px 3px 17px;
+  }
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1/-1;
+    margin-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 17px;
+  }
+}
+
+.form__fieldset--attractions {
+  @media (max-width: $mobile-width-only) {
+    padding: 23px 19px 5px 18px;
+  }
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1/-1;
+    margin-top: -17px;
+  }
+}
+
+.form__fieldset--contats {
+  @media (max-width: $mobile-width-only) {
+    padding: 24px 20px 18px 20px;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 47px;
+  }
+}
+
