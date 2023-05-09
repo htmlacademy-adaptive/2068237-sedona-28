@@ -46,6 +46,10 @@
     grid-column: 1/-1;
     margin-top: -22px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 4px;
+  }
 }
 
 .form__button {
@@ -62,6 +66,10 @@
 
   @media (min-width: $tablet-width) {
     padding: 16px 71px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 16px 101px;
   }
 }
 
@@ -80,6 +88,10 @@
     margin-top: -56px;
     margin-bottom: 72px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 96px 62px 96px;
+  }
 }
 
 .form__anotation {
@@ -93,6 +105,10 @@
     font-weight: 400;
     font-size: 14px;
     padding-top: 23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 3px;
   }
 }
 

@@ -1,0 +1,57 @@
+
+.popup-error__title,
+.popup-success__title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.popup-error__description,
+.popup-success__description {
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.popup {
+  text-align: center;
+  display: none;
+}
+
+.popup-error {
+  padding: 45px 20px 35px 20px;
+}
+
+.popup-error__button {
+  margin-top: 28px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.popup-success__button {
+  margin-top: 28px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.popup-success__wrapper-text {
+  padding: 39px 37px;
+}
+
+.popup-success__wrapper-button {
+  background-color: #f2f2f2;
+}

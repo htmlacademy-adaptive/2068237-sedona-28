@@ -240,16 +240,20 @@
           </div>
         </footer>
     </div>
-    <div class="error-popup">
-      <h3 class="error-popup__title">ЧТО-ТО ПОШЛО НЕ ТАК!</h3>
-      <p class="error-popup__description">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-      <a class="error-popup__button button" type="reset">Ок</a>
+    <div class="popup popup-error">
+      <h3 class="popup-error__title">ЧТО-ТО ПОШЛО НЕ ТАК!</h3>
+      <p class="popup-error__description">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+      <button class="popup-error__button button" type="reset">Ок</button>
     </div>
-    <div class="success-popup">
-      <h3 class="success-popup__title">Ваш отзыв отправлен!</h3>
-      <p class="success-popup__description">Спасибо за ваше участие, ваш отзыв уже поступил к нам.В ближайшее время мы
+    <div class="popup popup-success">
+      <div class="popup-success__wrapper-text">
+      <h3 class="popup-success__title">Ваш отзыв отправлен!</h3>
+      <p class="popup-success__description">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы
         опубликуем его на сайте.</p>
-      <a class="success-popup__button button" type="reset">закрыть окно</a>
+      </div>
+      <div class="popup-success__wrapper-button">
+        <button class="popup-success__button button" type="reset">закрыть окно</button>
+      </div>
     </div>
     <script src="./js/sripts.js"></script>
   </body>
