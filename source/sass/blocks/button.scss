@@ -20,6 +20,12 @@
     background-color: #e6e6e6;
   }
 
+  &:focus {
+    background-color: #5697bd;
+    color: rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+
   @media (min-width: $tablet-width) {
     padding: 16px 136px;
   }

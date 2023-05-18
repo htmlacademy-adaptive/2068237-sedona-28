@@ -42,7 +42,7 @@ img {
   object-fit: contain;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: $desktop-width) {
   .container {
     margin: 0 auto;
     width: 1200px;

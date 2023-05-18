@@ -136,15 +136,15 @@
 
   @media (min-width: $desktop-width) {
     padding: 0 90px;
+    margin-bottom: 9px;
   }
 }
 
 .advantages__descriptoin--border {
-  padding: 0 0 3px;
+  padding: 0;
 
   @media (min-width: $tablet-width) {
     border: none;
-    padding: 0;
   }
 }
 
@@ -159,6 +159,7 @@
     margin: 0;
     padding: 19px 0 0;
     margin-bottom: 0;
+    flex-wrap: wrap;
   }
 
   @media (min-width: $desktop-width) {
@@ -173,8 +174,9 @@
 
 .advantages__list-item {
   position: relative;
-  margin-bottom: 29px;
+  margin-bottom: 35px;
   padding-left: 45px;
+
 
   @media (min-width: $tablet-width) {
     margin-bottom: 35px;
@@ -206,6 +208,7 @@
 
   @media (min-width: $tablet-width) {
     font-size: 21px;
+    margin-bottom: 21px;
   }
 }
 
@@ -257,10 +260,6 @@
     padding: 131px 50px 6px;
     line-height: 22px;
   }
-}
-
-.advantages__list-item-description {
-  margin-top: 21px;
 }
 
 .advantages__list-item--gift {
@@ -317,7 +316,7 @@
 }
 
 .advantages__item-block--exchange-grey {
-  padding: 26px 15px 13px;
+  padding: 24px 15px 13px;
   border-bottom: 1px solid rgb(214, 214, 214);
 
   @media (min-width: $tablet-width) {
@@ -332,7 +331,6 @@
 }
 
 .advantages__number {
-  margin-top: 9px;
   margin-bottom: 9px;
 
   @media (min-width: $tablet-width) {

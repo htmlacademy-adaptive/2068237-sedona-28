@@ -6,7 +6,6 @@
   font-size: 14px;
 
   @media (min-width: $desktop-width) {
-
     color: rgb(255, 255, 255);
   }
 }
@@ -18,7 +17,7 @@
 
 .catalog-photo__item {
   @media (max-width: $mobile-width-only) {
-    padding: 25px 20px;
+    padding: 24px 20px 26px;
     border-bottom: 1px solid rgb(229, 229, 229);
   }
 
@@ -65,7 +64,7 @@
   font-weight: 700;
   align-self: center;
   margin-top: 12px;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: none;
   color: #000000;
 
@@ -79,8 +78,16 @@
 }
 
 .catalog-photo {
+  margin-bottom: 16px;
+
   @media (min-width: $tablet-width) {
     margin-top: 81px;
+    margin-bottom: 56px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 89px;
+    margin-bottom: 60px;
   }
 }
 
@@ -93,7 +100,11 @@
 }
 
 .catalog-photo__favorite svg {
-  margin-right: 5px;
+  margin-right: 12px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 9px;
+  }
 }
 
 .catalog-photo__list {

@@ -68,6 +68,21 @@
   line-height: 26px;
 }
 
+.input__field:hover {
+  background-color: #e5e5e5;
+}
+
+.input__field:focus-visible {
+  outline: 3px solid rgb(0, 0, 0);
+  border: 0;
+}
+
+.input__field:active {
+  border: 3px solid #e5e5e5;
+  outline: none;
+  background-color: #ffffff;
+}
+
 .input__wrapper {
   margin-bottom: 16px;
 }
@@ -100,7 +115,7 @@
 }
 
 .input__field--icon {
-  padding-right: 61px;
+  padding-right: 65px;
 }
 
 .input__title--decor::after,
