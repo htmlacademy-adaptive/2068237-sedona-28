@@ -105,7 +105,7 @@ const clean = () => {
 const server = (done) => {
   browser.init({
     server: {
-      baseDir: 'source'
+      baseDir: 'build'
     },
     cors: true,
     notify: false,
@@ -150,6 +150,7 @@ export default gulp.series(
   clean,
   copy,
   copyImages,
+
   gulp.parallel(
     styles,
     html,
