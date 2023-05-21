@@ -17,7 +17,7 @@
   }
 }
 
-.hero__text--form-page {
+.hero__text.hero__text--form-page {
   padding: 38px 18px 16px;
 
   border-bottom: 1px solid rgb(229, 229, 229);
@@ -132,7 +132,7 @@
   }
 }
 
-.hero__title--form-page {
+.hero__title.hero__title--form-page {
   text-transform: uppercase;
   color: $black;
   font-weight: 700;
@@ -151,7 +151,7 @@
   }
 }
 
-.hero__description--form-page {
+.hero__description.hero__description--form-page {
   @media (max-width: $mobile-width-only) {
     margin-bottom: 9px;
   }

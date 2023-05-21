@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/style.min.css" />
-  <link rel="icon" href="favicon.ico">
-  <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="img/favicons/apple-icon-180x180.png">
-  <title>Sedona</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicons/apple-icon-180x180.png">
+    <title>Sedona</title>
+  </head>
 
-  <body>
+  <body class="page">
     <!--container-->
 
     <div class="container">
@@ -20,8 +20,10 @@
       <!--page-header-->
       <header class="page-header">
 
-        <a href="index.html" class="main-nav__logo"><img class="main-nav__logo-img" src="./img/header/logo.svg"
-            alt="Логотип Седона" width="185" height="95"></a>
+        <a href="index.html" class="page-header__logo">
+          <img class="page-header__img" src="./img/header/logo.svg"
+            alt="Логотип Седона" width="185" height="95">
+          </a>
 
         <!--navigation-->
         <nav class="main-nav main-nav--opened main-nav--nojs">
@@ -53,29 +55,32 @@
       <main>
 
         <!--hero-->
+        <h1 class="visually-hidden">Форма отзыва</h1>
 
         <section class="hero">
           <div class="hero__intro hero__intro--inner-page">
+            <h2 class="visually-hidden">Седона</h2>
             <picture>
-              <img class="hero__text-img  hero__text-img--inner-page" src="./img/form/hero/sedona.svg" height="39"
-                width="229" alt="Начальный текст" width="282" height="214" />
+              <img class="hero__text-img  hero__text-img--inner-page" src="./img/form/hero/sedona.svg" alt="Начальный текст" height="39"
+              width="229" />
             </picture>
           </div>
-          <div class=" hero__text--form-page">
+          <div class="hero__text hero__text--form-page">
 
-            <h2 class="hero__title--form-page">
+            <h2 class="hero__title hero__title--form-page">
               Оставьте свой отзыв
             </h2>
-            <p class="hero__description--form-page">
+            <p class="hero__description hero__description--form-page">
               Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях
             </p>
           </div>
         </section>
-        <form class="comment__form form" action="https://echo.htmlacademy.ru/" method="post">
+        <form class="form" action="https://echo.htmlacademy.ru/" method="post">
+
           <fieldset class="form__fieldset form__fieldset--name input">
-            <span>
-              <legend class="input__title">Представьтесь:</legend>
-            </span>
+            <legend class="input__title-wrapper">
+              <span class="input__title">Представьтесь:</span>
+            </legend>
             <div class="input__wrapper">
               <label class="input__label" for="firstname">Имя*:</label>
               <input class="input__field" type="text" name="firstname" id="firstname" value="Пётр"
@@ -93,9 +98,9 @@
             </div>
           </fieldset>
           <fieldset class="form__fieldset  form__fieldset--contats input">
-            <span>
-              <legend class="input__title">Контактная информация:</legend>
-            </span>
+            <legend class="input__title-wrapper">
+              <span class="input__title">Контактная информация:</span>
+            </legend>
             <div class="input__wrapper">
               <label class="input__label" for="phone">Контактный телефон*:</label>
               <div class="input__field-wrapper">
@@ -128,9 +133,9 @@
             </div>
           </fieldset>
           <fieldset class="form__fieldset form__fieldset-impressions input">
-            <span>
-              <legend class="input__title input__title--decor">Ваше общее впечатление:</legend>
-            </span>
+            <legend class="input__title-wrapper" >
+              <span class="input__title input__title--decor">Ваше общее впечатление:</span>
+            </legend>
             <ul class="input__list radio">
               <li class="radio__item">
                 <label class="radio__label">
@@ -153,9 +158,9 @@
             </ul>
           </fieldset>
           <fieldset class="form__fieldset form__fieldset--attractions input">
-            <span>
-              <legend class="input__title input__title--decor">Посещенные достопримечательности:</legend>
-            </span>
+            <legend class="input__title-wrapper">
+              <span class="input__title input__title--decor">Посещенные достопримечательности:</span>
+            </legend>
             <ul class="input__list checkbox">
               <li class="checkbox__item">
                 <label class="checkbox__label checkbox__label--brige">
@@ -184,9 +189,9 @@
             </ul>
           </fieldset>
           <fieldset class="form__fieldset form__fieldset--emotions input">
-            <span>
-              <legend class="input__title input__title--decor">Опишите свои эмоции:</legend>
-            </span>
+            <legend class="input__title-wrapper">
+              <span class="input__title input__title--decor">Опишите свои эмоции:</span>
+            </legend>
             <label class="visually-hidden" for="emotions">Описание эмоций.</label>
             <textarea class="input__textarea" id="emotions" placeholder="Опишите подробно все свои восторги"></textarea>
           </fieldset>
@@ -196,7 +201,7 @@
           </div>
         </form>
         <!--page-footer-->
-
+      </main>
         <footer class="page-footer">
 
           <div class="page-footer__wrapper">
@@ -205,7 +210,7 @@
             <!--page-footer__social-->
 
             <div class="page-footer__social">
-
+              <h2 class="visually-hidden">Социальные сети</h2>
               <a href="#" class="page-footer__social-link page-footer__social-link--vk"><svg
                   xmlns="http://www.w3.org/2000/svg" class="page-footer__social__icon" width="25" height="14"
                   viewBox="0 0 25 14" fill="none">
@@ -235,7 +240,22 @@
             <!--page-footer__developed-->
 
             <div class="page-footer__developed">
-              <a href="" class="page-footer__developed-link">Разработано</a>
+              <a href="" class="page-footer__developed-link">
+                <h2 class="visually-hidden">О создателях сайта</h2>
+                <span class="page-footer__text">Разработано</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="36" viewBox="0 0 28 36" fill="none">
+                  <g clip-path="url(#clip0_61576_702)">
+                    <path
+                      d="M14.15 0.949951H14.05L0.550049 2.34995V27.05L14.05 35.0499L27.45 27.05V2.34995L14.15 0.949951ZM25.55 13.05L14.05 6.24995V6.14995H13.95L13.85 6.04995V6.14995L2.45005 13.05V4.04995L13.95 2.84995L25.55 4.04995V13.05ZM13.95 7.74995L25.45 14.45L20.95 17.05L13.85 12.85V14.25L19.75 17.75L18.85 18.25L13.85 15.25V16.65L17.65 18.95L16.85 19.45L13.85 17.65V19.05L15.75 20.15L13.95 21.25L2.55005 14.55L13.95 7.74995ZM2.45005 16.05L13.85 22.85V23.85L5.95005 19.15V20.55L13.95 25.35V26.45L5.95005 21.75V23.15L13.95 27.95L22.05 23.05V17.85L25.45 15.85V25.85L13.95 32.75L2.45005 25.95V16.05Z"
+                      fill="black" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_61576_702">
+                      <rect width="28" height="35" fill="white" transform="translate(0 0.5)" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                </a>
             </div>
           </div>
         </footer>

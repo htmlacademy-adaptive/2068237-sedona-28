@@ -25,9 +25,10 @@
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
     "lint": "npm run editorconfig && npm run stylelint",
-    "build": "gulp styles",
-    "start": "npx gulp"
+    "build": "gulp build",
+    "start": "gulp"
   },
+  "type": "module",
   "browserslist": [
     "last 2 versions",
     "not dead",
@@ -45,6 +46,5 @@
   ],
   "engines": {
     "node": "^16"
-  },
-  "type": "module"
+  }
 }

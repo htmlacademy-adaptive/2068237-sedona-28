@@ -49,7 +49,12 @@
 }
 
 .radio__item {
+  margin-left: 3px;
   margin-bottom: 14px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 14px;
+  }
 }
 
 .radio__name::before {
