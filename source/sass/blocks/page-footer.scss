@@ -1,0 +1,148 @@
+.page-footer__wrapper {
+  padding: 26px 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 26px 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 36px 108px 31px 120px;
+  }
+}
+
+.page-footer__visit-sedona {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.page-header__logo {
+  position: absolute;
+  left: calc(50% - 93px);
+
+  @media (min-width: $tablet-width) {
+    z-index: 2;
+  }
+}
+
+.page-footer__social {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 1px;
+    margin-left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 11px;
+  }
+}
+
+.page-header__img {
+  text-align: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.page-footer__developed-link {
+  color: $black;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 0 1px 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 4px 0 7px 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 7px 12px 7px 0;
+  }
+
+  &:hover {
+    color: #81b3d2;
+  }
+
+  &:hover path {
+    fill: #81b3d2;
+  }
+}
+
+.page-footer__developed-link svg {
+  margin-left: 12px;
+}
+
+.page-footer__developed-link::before :hover {
+  background-color: rgb(129, 179, 210);
+}
+
+.page-footer__text {
+  @media (min-width: $tablet-width) {
+    margin-left: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 12px;
+  }
+}
+
+.page-footer__social-item {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(129, 179, 210);
+}
+
+.page-footer__social-link {
+  position: relative;
+  text-decoration: none;
+  background-color: #81b3d2;
+  height: 48px;
+  width: 48px;
+}
+
+.page-footer__social-link:active {
+  background-color: rgb(84, 150, 189);
+}
+
+.page-footer__social-link:hover {
+  background-color: #669ec0;
+}
+
+.page-footer__social-link:focus {
+  outline: 3px solid #000000;
+  border: 0;
+}
+
+.page-footer__social-link:active path {
+  opacity: 0.3;
+}
+
+.page-footer__social__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
