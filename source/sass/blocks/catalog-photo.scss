@@ -10,6 +10,12 @@
   }
 }
 
+.catalog-photo__wrapper-img {
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
 .catalog-photo__descriptoin {
   text-transform: none;
   margin: 0;

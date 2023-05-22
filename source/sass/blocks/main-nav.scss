@@ -107,6 +107,7 @@
   @media (max-width: $mobile-width-only) {
     position: static;
     display: flex;
+    flex-direction: column;
   }
 }
 
