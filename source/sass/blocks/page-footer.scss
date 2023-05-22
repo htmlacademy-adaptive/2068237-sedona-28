@@ -9,7 +9,7 @@
   @media (min-width: $tablet-width) {
     flex-direction: row;
     justify-content: space-between;
-    padding: 26px 60px;
+    padding: 28px 60px;
   }
 
   @media (min-width: $desktop-width) {
@@ -23,15 +23,6 @@
   line-height: 26px;
   color: #000000;
   text-decoration: none;
-}
-
-.page-header__logo {
-  position: absolute;
-  left: calc(50% - 93px);
-
-  @media (min-width: $tablet-width) {
-    z-index: 2;
-  }
 }
 
 .page-footer__social {
@@ -49,15 +40,6 @@
 
   @media (min-width: $desktop-width) {
     margin-left: 11px;
-  }
-}
-
-.page-header__img {
-  text-align: center;
-  margin: 0 auto;
-
-  @media (min-width: $tablet-width) {
-    display: block;
   }
 }
 
@@ -84,6 +66,14 @@
   &:hover path {
     fill: #81b3d2;
   }
+
+  &:active path {
+    fill: #b3b3b3;
+  }
+
+  &:active {
+    color: #b3b3b3;
+  }
 }
 
 .page-footer__developed-link svg {
@@ -92,6 +82,10 @@
 
 .page-footer__developed-link::before :hover {
   background-color: rgb(129, 179, 210);
+}
+
+.page-footer__developed-link::before :active {
+  background-color: #b3b3b3;
 }
 
 .page-footer__text {

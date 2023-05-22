@@ -47,11 +47,6 @@
   background-color: #d5d5d5;
 }
 
-.checkbox__label:active .checkbox__name::after {
-  background-color: rgba(51, 51, 51, 0.3);
-}
-
-
 .checkbox__label--brige {
   @media (min-width: $desktop-width) {
     min-width: 172px;

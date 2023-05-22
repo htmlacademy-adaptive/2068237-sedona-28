@@ -6,7 +6,6 @@ import csso from 'postcss-csso';
 import autoprefixer from 'autoprefixer';
 import browser from 'browser-sync';
 import rename from 'gulp-rename';
-import htmlmin from 'gulp-htmlmin'
 import terser from 'gulp-terser';
 import squoosh from 'gulp-libsquoosh';
 import svgo from 'gulp-svgmin';
@@ -28,7 +27,6 @@ export const styles = () => {
 // HTML
 const html = () => {
   return gulp.src('source/*.html')
-    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('build'));
 }
 // Scripts
@@ -43,7 +41,7 @@ export const optimizeImages = () => {
     .pipe(squoosh())
     .pipe(gulp.dest('build/img'))
 }
- const copyImages = () => {
+export const copyImages = () => {
   return gulp.src('source/img/**/*.{png,jpg}')
     .pipe(gulp.dest('build/img'))
 }

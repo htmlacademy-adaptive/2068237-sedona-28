@@ -3,8 +3,8 @@
   margin: 0 auto;
 }
 
-.hero__text--inner-page {
-  padding: 37px 20px 18px 20px;
+.hero__text.hero__text--inner-page {
+  padding: 39px 23px 16px 23px;
   border-bottom: 1px solid rgb(229, 229, 229);
 
   @media (min-width: $tablet-width) {

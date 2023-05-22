@@ -52,6 +52,10 @@
   z-index: 2;
   cursor: pointer;
   background-color: transparent;
+
+  @media (min-width: $desktop-width) {
+    top: 47%;
+  }
 }
 
 .video__button:focus {
