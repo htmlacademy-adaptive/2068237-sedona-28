@@ -25,15 +25,6 @@
   text-decoration: none;
 }
 
-.page-header__logo {
-  position: absolute;
-  left: calc(50% - 93px);
-
-  @media (min-width: $tablet-width) {
-    z-index: 2;
-  }
-}
-
 .page-footer__social {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -49,15 +40,6 @@
 
   @media (min-width: $desktop-width) {
     margin-left: 11px;
-  }
-}
-
-.page-header__img {
-  text-align: center;
-  margin: 0 auto;
-
-  @media (min-width: $tablet-width) {
-    display: block;
   }
 }
 

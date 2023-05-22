@@ -12,3 +12,21 @@
     min-height: 56px;
   }
 }
+
+.page-header__img {
+  text-align: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.page-header__logo {
+  position: absolute;
+  left: calc(50% - 93px);
+
+  @media (min-width: $tablet-width) {
+    z-index: 2;
+  }
+}

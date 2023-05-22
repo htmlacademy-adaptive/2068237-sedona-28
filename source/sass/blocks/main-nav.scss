@@ -103,6 +103,17 @@
   opacity: 0.3;
 }
 
+.main-nav--nojs .main-nav__site-list {
+  @media (max-width: $mobile-width-only) {
+    position: static;
+    display: flex;
+  }
+}
+
+.main-nav--nojs {
+  z-index: 2;
+}
+
 .main-nav--closed .main-nav__toggle {
   position: absolute;
   border: none;
@@ -176,12 +187,5 @@
 .main-nav__site-link--active {
   @media (min-width: $tablet-width) {
     color: #766357;
-  }
-}
-
-.main-nav--nojs .main-nav__list {
-  @media (max-width: $mobile-width-only) {
-    position: static;
-    display: flex;
   }
 }
