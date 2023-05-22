@@ -158,6 +158,11 @@
     right: 2px;
     top: -1px;
   }
+
+  @media (min-width: $desktop-width) {
+    right: 0;
+    top: 0;
+  }
 }
 
 .input__field--icon {

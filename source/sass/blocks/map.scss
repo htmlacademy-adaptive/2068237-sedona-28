@@ -3,6 +3,7 @@
   border: none;
   height: 350px;
   display: block;
+  max-height: 350px;
 }
 
 .map {
@@ -16,6 +17,7 @@
 
   @media (min-width: $tablet-width) {
     margin: 70px 0 -36px;
+    height: 100%;
     background-image: url("../img/index/map/map-tablet.jpg");
 
     @media (min-resolution: 2dppx) {
@@ -25,6 +27,7 @@
 
   @media (min-width: $desktop-width) {
     margin: 82px 0 -48px;
+    height: 100%;
     background-image: url("../img/index/map/map-desktop.jpg");
 
     @media (min-resolution: 2dppx) {
@@ -33,7 +36,3 @@
   }
 }
 
-.map__no-js {
-  width: 100%;
-  object-fit: cover;
-}
