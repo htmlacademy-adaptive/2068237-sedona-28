@@ -84,6 +84,14 @@
   &:hover path {
     fill: #81b3d2;
   }
+
+  &:active path {
+    fill: #b3b3b3;
+  }
+
+  &:active {
+    color: #b3b3b3;
+  }
 }
 
 .page-footer__developed-link svg {
@@ -92,6 +100,10 @@
 
 .page-footer__developed-link::before :hover {
   background-color: rgb(129, 179, 210);
+}
+
+.page-footer__developed-link::before :active {
+  background-color: #b3b3b3;
 }
 
 .page-footer__text {
