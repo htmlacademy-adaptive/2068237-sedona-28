@@ -12,3 +12,7 @@ navToggle.addEventListener('click', function () {
     navMain.classList.remove('main-nav--opened');
   }
 });
+map.classList.remove('map--nojs');
+let map = document.querySelector('map');
+
+

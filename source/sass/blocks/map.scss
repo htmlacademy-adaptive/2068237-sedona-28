@@ -2,6 +2,7 @@
   width: 100%;
   border: none;
   height: 350px;
+  display: block;
 }
 
 .map {
@@ -14,4 +15,13 @@
   @media (min-width: $desktop-width) {
     margin: 82px 0 -48px;
   }
+}
+
+.map--nojs .map__image {
+  display: none;
+}
+
+.map__no-js {
+  width: 100%;
+  object-fit: cover;
 }
