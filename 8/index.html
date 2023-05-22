@@ -13,7 +13,7 @@
     <base href="https://htmlacademy-adaptive.github.io/2068237-sedona-28/8/">
 </head>
 
-  <body>
+  <body class="page">
     <!--container-->
 
     <div class="container">
@@ -117,7 +117,7 @@
                 <picture>
                   <source media="(min-width: 1200px)" srcset="./img/index/advantages/photo-bridge-desktop.jpg, ./img/index/advantages/bridge-desktop@2x.jpg 2x" width="800" height="256"/>
                   <source media="(min-width: 768px)" srcset="./img/index/advantages/photo-bridge-tablet.jpg, ./img/index/advantages/bridge-tablet@2x.jpg 2x" width="512" height="256"/>
-                  <img class="advantages__photo-img" src="./img/index/advantages/photo-bridge.jpg" srcset="bridge-mobile@2x.jpg 2x" width="320" height="260" alt="фото неродных простор" />
+                  <img class="advantages__photo-img" src="./img/index/advantages/photo-bridge.jpg" srcset="./img/index/advantages/bridge-mobile@2x.jpg 2x" width="320" height="260" alt="фото неродных простор" />
                 </picture>
               </div>
               <div class="advantages__item-block advantages__item-block--exchange-color">
@@ -167,18 +167,18 @@
             предложения гостиниц в Седоне
           </p>
           <a class="button serch__button-serch" href="#">Найти гостиницу</a>
-          <div class="serch__map map">
+          <div class="serch__map map map--nojs">
             <h2 class="visually-hidden">Карта.</h2>
-            <iframe class="map__image"
+            <iframe class="map__image "
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.4619773392023!2d-111.76356452363291!3d34.869743874122854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da30a955c760b%3A0x32c09087928922ff!2sSedona!5e0!3m2!1sen!2sru!4v1681935326827!5m2!1sen!2sru"
               allowfullscreen="" title="Офис компании по адресу набережная реки Карповки, 5, литера П, Санкт-Петербург"
               width="766" height="560"></iframe>
             <noscript>
               <picture>
-                <source media="(min-width: 1200px)" srcset="./img/index/map/map-desktop.jpg" width="1200"
+                <source media="(min-width: 1200px)" srcset="./img/index/map/map-desktop.jpg, ./img/index/map/map-desktop@2x.jpg 2x" width="1200"
                   height="350" />
-                <source media="(min-width: 768px)" srcset="./img/index/map/map-tablet.jpg" width="768" height="350" />
-                <img class="map__no-js" src="./img/index/map/map-mobile.jpg" srcset="./img/picture/map-mobile2x.jpg"
+                <source media="(min-width: 768px)" srcset="./img/index/map/map-tablet.jpg, ./img/index/map/map-tablet@2x.jpg 2x" width="768" height="350" />
+                <img class="map__no-js" src="./img/index/map/map-mobile.jpg" srcset="./img/index/map/map-mobile@2x.jpg 2x"
                   width="320" height="350" alt="Местополежение Седоны на карте Аризоны." />
               </picture>
             </noscript>
