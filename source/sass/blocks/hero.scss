@@ -61,7 +61,7 @@
   padding-bottom: 79px;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/map/background-index-mobile@2x.jpg");
+    background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/hero/background-index-mobile@2x.jpg");
   }
 
   @media (min-width: $tablet-width) {
@@ -70,7 +70,7 @@
     padding-bottom: 84px;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/map/background-index-tablet@2x.jpg");
+      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/hero/background-index-tablet@2x.jpg");
     }
   }
 
@@ -78,7 +78,7 @@
     background-image: url("../img/index/hero/triangle-desktop.svg"), url("../img/index/hero/back-desktop.jpg");
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/map/background-index-desktop@2x.jpg");
+      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/hero/background-index-desktop@2x.jpg");
     }
   }
 }
@@ -90,7 +90,7 @@
   padding-bottom: 59px;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/map/background-mobile@2x.jpg");
+    background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/hero/background-mobile@2x.jpg");
   }
 
   @media (min-width: $tablet-width) {
@@ -99,7 +99,7 @@
     padding-top: 95px;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/map/background-tablet@2x.jpg");
+      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/hero/background-tablet@2x.jpg");
     }
   }
 
@@ -109,7 +109,7 @@
     padding-bottom: 116px;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/map/background-desktop@2x.jpg");
+      background-image: url("../img/index/hero/triangle-mobile.svg"), url("../img/index/hero/background-desktop@2x.jpg");
     }
   }
 }
