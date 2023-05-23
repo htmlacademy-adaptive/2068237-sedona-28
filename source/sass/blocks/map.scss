@@ -30,13 +30,28 @@
 
 .map {
   margin: 64px 0 10px;
+  background-size: contain;
+  background-image: url("../img/index/map/map-mobile.jpg");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/index/map/map-mobile@2x.jpg");
+  }
 
   @media (min-width: $tablet-width) {
     margin: 70px 0 -36px;
+    background-image: url("../img/index/map/map-tablet.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/index/map/map-tablet@2x.jpg");
+    }
   }
 
   @media (min-width: $desktop-width) {
     margin: 82px 0 -48px;
+    background-image: url("../img/index/map/map-desktop.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/index/map/map-desktop@2x.jpg");
+    }
   }
 }
-
