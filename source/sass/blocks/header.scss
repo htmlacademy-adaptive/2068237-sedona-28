@@ -1,0 +1,32 @@
+@import "./blocks/mixins.scss";
+@import "./var.scss";
+
+.page-header {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 26px;
+  position: relative;
+  background: #ffffff;
+
+  @media (max-width: $mobile-width-only) {
+    min-height: 56px;
+  }
+}
+
+.page-header__img {
+  text-align: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.page-header__logo {
+  position: absolute;
+  left: calc(50% - 93px);
+
+  @media (min-width: $tablet-width) {
+    z-index: 2;
+  }
+}

@@ -1,0 +1,84 @@
+.video {
+  text-align: center;
+}
+
+.video__descriprion {
+  padding: 12px 27px 23px;
+
+  @media (min-width: $tablet-width) {
+    padding: 3px 162px 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 3px 370px 32px;
+  }
+}
+
+.video__title {
+  color: $black;
+  font-size: 18px;
+  font-weight: 700;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 26px;
+  }
+}
+
+.video__wrapper {
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+    padding-top: 42px;
+    padding-bottom: 41px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 40px;
+    padding-bottom: 77px;
+  }
+}
+
+.video__button {
+  width: 48px;
+  height: 54px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0;
+  outline: 0;
+  z-index: 2;
+  cursor: pointer;
+  background-color: transparent;
+
+  @media (min-width: $desktop-width) {
+    top: 47%;
+  }
+}
+
+.video__button:focus {
+  border: 0;
+}
+
+.video__button svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.video__button path {
+  fill: #ffffff;
+  fill-opacity: 0.7;
+}
+
+.video__button:hover path {
+  fill: #ffffff;
+  fill-opacity: 0.5;
+}
+
+.video__button:active path {
+  fill: #ffffff;
+  fill-opacity: 0.3;
+}
