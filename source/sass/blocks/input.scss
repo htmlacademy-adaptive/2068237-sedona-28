@@ -31,7 +31,7 @@
   margin-bottom: 50px;
   resize: none;
   height: 150px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   width: 100%;
 
@@ -74,6 +74,11 @@
 
   @media (min-width: $tablet-width) {
     margin-bottom: 28px;
+    padding-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
   }
 }
 
@@ -92,7 +97,7 @@
   font-size: 18px;
   line-height: 26px;
   color: rgb(0, 0, 0);
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   min-height: 58px;
@@ -155,7 +160,7 @@
   background-color: rgb(230, 230, 230);
 
   @media (min-width: $tablet-width) {
-    right: 2px;
+    right: -1px;
     top: -1px;
   }
 
